@@ -3,3 +3,28 @@ body {
   height: 100vh;
   font-family: "DM Sans", sans-serif;
 }
+
+#about-me {
+  background-color: #f2f1aa;
+}
+
+#how-do-i-work {
+  background-color: #f2f1aa;
+}
+
+#case-studies {
+  background-color: #f2f1aa;
+}
+
+#uottawa-logo {
+  width: 200px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* 
+nav {
+  background-color: #f2f1aa;
+} */
