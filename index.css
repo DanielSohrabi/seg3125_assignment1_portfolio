@@ -1,30 +1,79 @@
 body {
-/* ?  background-image: linear-gradient(#005298FF, #002F73FF); */
-  height: 100vh;
+  background-image: linear-gradient(#005298FF, #002F73FF);
+  /* height: 200vh; */
   font-family: "DM Sans", sans-serif;
 }
 
 #about-me {
-  background-color: #f2f1aa;
+  background-color: #aac8f222;
 }
+/* 
+#about-me-container {
+  height:80vh;
+} */
 
 #how-do-i-work {
-  background-color: #f2f1aa;
+  background-color: #aac8f222;
 }
 
 #case-studies {
-  background-color: #f2f1aa;
+  background-color: #aac8f222;
 }
 
 #uottawa-logo {
-  width: 200px;
+  width: 300px;
 }
 
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* 
-nav {
-  background-color: #f2f1aa;
-} */
+
+.link-img {
+  transition: all .5s;
+}
+
+.link-img:hover {
+  filter: grayscale(5);
+  transform: scale(1.1) perspective(10px);
+  transition: all .5s;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  color:#EF9A9A;
+}
+
+h1 {
+  color: #EF9A9A;
+}
+
+.hi {
+  font-size: 48px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.name {
+  font-size: 64px;
+}
+
+.navbar {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.card-study {
+  background-image: linear-gradient(rgba(0, 25, 60, 0.256), rgba(0, 30, 73, 0.45));
+  transition: all .5s;
+}
+
+.card-study:hover {
+  transform: scale(1.1) perspective(10px);
+  transition: all .5s;
+}
